@@ -67,12 +67,78 @@ nav #menu_principal{
     color: #e7a520;
     transition: 1s;
 }
-section{
+.nome{
     background-image: url(../img/divider-dark.png);
     width: 100%;
     height: 500px;
     background-repeat: repeat-x;
+    padding-top: 100px;
 }
+    .icons{
+    
+    height: 120px;
+    width: 345px;
+    margin: 0 auto;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .icons .icon img{
+        width: 115px;
+    }
+    .txt{
+  
+    height: 100px;
+    width: 100%;
+    }
+
+    .txt h6{
+        font-size: 28px;
+        font-weight: 300;
+        width: 80%;
+        display: inline-block;
+        line-height: 40px;
+        font-family: 'Roboto Slab', serif; /*MUDAR A FONTE DO GOOGLE FONTES*/
+        color: black;
+        text-align: center;
+        margin: 0;
+        margin-left: 95px;
+        margin-top: 40px;
+
+    }
+    .txt{
+        width: 850px;
+        margin: 0 auto;
+    }
+    .trabalhos h4{ /*texto "nossos"*/
+        font-size: 24px; /*24, 85, 20*/ /*tamanho da fonte*/
+        font-weight: 300;
+        font-family: Montesserrat, sans-serif;
+        text-align: center; /*alinhar no centro*/
+        margin: 0;
+        color: #e7a520;
+        letter-spacing: 11px;
+    }
+    .trabalhos h1{ /*texto "projetos"*/
+        font-size: 85px; /*tamanho da fonte*/
+        font-weight: 700;
+        font-family: Montesserrat, sans-serif;
+        text-align: center; /*alinhar no centro*/
+        margin: 0;
+    }
+    .trabalhos img{ /*foto da ondinha preta em baixo do titulo*/
+        margin: 0;
+        margin-left: 920px;
+
+    }
+    .trabalhos h5{ /*texto "Concebemos ideias e concretizamos sonhos."*/
+        font-size: 20px; /*tamanho da fonte*/
+        font-weight: 250;
+        font-family: Montesserrat, sans-serif;
+        text-align: center; /*alinhar no centro*/
+        margin: 0;
+    }
 /*----------------------------------------TRABALHOS----------------------------------------*/
 #TRABALHOS{
     background-color: blue;
