@@ -67,7 +67,7 @@ nav #menu_principal{
     color: #e7a520;
     transition: 1s;
 }
-.nome{
+.regua{
     background-image: url(../img/divider-dark.png);
     width: 100%;
     height: 500px;
@@ -75,7 +75,6 @@ nav #menu_principal{
     padding-top: 100px;
 }
     .icons{
-    
     height: 120px;
     width: 345px;
     margin: 0 auto;
@@ -111,33 +110,52 @@ nav #menu_principal{
         width: 850px;
         margin: 0 auto;
     }
-    .trabalhos h4{ /*texto "nossos"*/
-        font-size: 24px; /*24, 85, 20*/ /*tamanho da fonte*/
-        font-weight: 300;
-        font-family: Montesserrat, sans-serif;
-        text-align: center; /*alinhar no centro*/
-        margin: 0;
+    
+    .trabalhos{
+        height: 200px;
+        width: 100%;
+    }
+    .cabecalho{
+        min-width: 1200px;
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .trabalhos .cabecalho h4 span{
         color: #e7a520;
+        text-transform: uppercase;
         letter-spacing: 11px;
+        font-weight: 300;
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
     }
-    .trabalhos h1{ /*texto "projetos"*/
-        font-size: 85px; /*tamanho da fonte*/
+    .trabalhos .cabecalho h4 b{
         font-weight: 700;
-        font-family: Montesserrat, sans-serif;
-        text-align: center; /*alinhar no centro*/
-        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 85px;
+        text-transform: uppercase;
+        color: black;
     }
-    .trabalhos img{ /*foto da ondinha preta em baixo do titulo*/
-        margin: 0;
-        margin-left: 920px;
+
+    .trabalhos .cabecalho p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    .trabalhos .mosaico{
+        min-width: 1200px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .trabalhos .mosaico .item{
+        height: 470px;
+        width: 570px;
+        background-image: url(../img/imagemheliponto.jpg);
+        background-size: contain; /*deixar do tamanho do elemento*/
+        background-position: center;
 
     }
-    .trabalhos h5{ /*texto "Concebemos ideias e concretizamos sonhos."*/
-        font-size: 20px; /*tamanho da fonte*/
-        font-weight: 250;
-        font-family: Montesserrat, sans-serif;
-        text-align: center; /*alinhar no centro*/
-        margin: 0;
+    .trabalhos .mosaico .item:hover{
+        background-size: 110%;
     }
 /*----------------------------------------TRABALHOS----------------------------------------*/
 #TRABALHOS{
